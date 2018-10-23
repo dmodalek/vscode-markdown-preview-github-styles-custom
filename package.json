@@ -1,0 +1,29 @@
+{
+  "name": "markdown-preview-github-styles-custom",
+  "version": "0.1.3",
+  "displayName": "Markdown Preview Github Styling Custom",
+  "description": "Changes VS Code's built-in markdown preview to match Github's style with some customisations",
+  "keywords": [
+    "markdown",
+    "markdown style",
+    "github",
+    "github markdown",
+    "multi-root ready"
+  ],
+  "publisher": "dmodalek",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/dmodalek/vscode-markdown-preview-github-styles-custom.git"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "markdown.previewStyles": [
+      "./styles.css"
+    ]
+  }
+}
