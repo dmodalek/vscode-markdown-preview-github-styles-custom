@@ -71,8 +71,7 @@ th {
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 14px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -184,12 +183,12 @@ pre {
   font: 12px Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
 
-body > :first-child,
-body > .toc:first-child + * {
+body> :first-child,
+body>.toc:first-child+* {
   margin-top: 0 !important;
 }
 
-body > :last-child {
+body> :last-child {
   margin-bottom: 0 !important;
 }
 
@@ -289,7 +288,7 @@ ol ul {
   margin-bottom: 0;
 }
 
-li > p {
+li>p {
   margin-top: 16px;
 }
 
@@ -316,11 +315,11 @@ blockquote {
   border-left: 4px solid #ddd;
 }
 
-blockquote > :first-child {
+blockquote> :first-child {
   margin-top: 0;
 }
 
-blockquote > :last-child {
+blockquote> :last-child {
   margin-bottom: 0;
 }
 
@@ -336,8 +335,8 @@ table th {
   font-weight: bold;
 }
 
-table > tr > th:not([align]),
-table > * > tr > th:not([align]) {
+table>tr>th:not([align]),
+table>*>tr>th:not([align]) {
   text-align: left;
 }
 
@@ -402,7 +401,7 @@ del code {
   text-decoration: inherit;
 }
 
-pre > code {
+pre>code {
   padding: 0;
   margin: 0;
   font-size: 100%;
